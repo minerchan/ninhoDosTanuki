@@ -1,8 +1,12 @@
+import Nav from '../../components/Nav/Nav';
 import './Home.scss';
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+    <Nav/>
+    <h1>Home</h1>
+    </>
   )
 }
 
